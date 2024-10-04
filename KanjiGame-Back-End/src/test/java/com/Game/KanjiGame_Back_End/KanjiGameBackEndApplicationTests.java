@@ -10,4 +10,9 @@ class KanjiGameBackEndApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void main() {
+		KanjiGameBackEndApplication.main(new String[]{});
+	}
+
 }
